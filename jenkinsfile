@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    Pipeline script from SCM
     stages{
         stage('build project'){
             steps{
